@@ -1,0 +1,762 @@
+:root{
+    --bs-body-font-family: "Raleway", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+html, body{ 
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.navbar{
+    background-image: url(img/jpgtopngconverter-com.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 19%;
+    justify-content: center;
+    height: auto;
+   
+}
+.navbar .container-fluid{
+    margin-top: 20px;
+    align-items:flex-start;
+}
+.navbar-brand{
+    display: flex;
+}
+.navbar-brand h4{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 14px;
+    margin-top: 24px;
+    margin-left: 8px;
+}
+.navbar-brand img{
+    vertical-align: top;
+    width: 60px;
+}
+.container-fluid button{
+    border: none;
+   
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 229, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  
+}
+.navbar-toggler{
+    color: #ffe500;
+}
+.nav-item a{
+    font-weight: bold;
+}
+.nav-item a:hover{
+    color: #ffe500 !important;
+}
+.wlc-note{
+   display:block;
+   width: 100%;
+   text-align: center;
+   padding-top: 17%;
+}
+.wlc-note h2{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 20px;
+  
+}
+.wlc-note p{
+    padding-top: 10px;
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.btn{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 10px;
+    width: 165px;
+    height: 45px;
+    background-color: #ffe500;
+    border-radius:0px;
+   
+}
+.navbar .btn{
+    margin-top: 25px;
+    margin-bottom: 23%;
+}
+/*sectionOne start from here*/
+.sectionOne{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 5% 19% 7% 19%;
+}
+.mountain p{
+    padding: 80px 24.8%;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #939393;
+}
+/*sectionOne end from here*/
+/*sectionTwo start from here*/
+.sectionTwo{
+    background-color: #f4f4f4;
+    padding: 80px 0 30px 0;
+}
+.axe{
+    text-align: center;
+}
+.serviceDetails{
+    text-align: center;
+}
+.serviceDetails h2{
+    letter-spacing: 12px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.serviceDetails p{
+    font-size: 15px;
+    color: #939393;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    padding: 0 27%;
+    line-height: 30px;
+    font-weight: 400;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    padding: 0 19%;
+    justify-content: space-between;
+}
+.card{
+    height:350px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 0;
+    align-items: center;
+    background-color: #ffffff;
+}
+.card img{
+    width: 75px;
+    margin-top: 45px;
+}
+.skill-details{
+    margin-bottom: 40px;
+}
+.skill-details:nth-child(4) img{
+    width:36px ;
+}
+.skill-details:nth-child(2) img{
+    width:65px ;
+}
+.card-body h3{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size:15px ;
+    text-align: center;
+    font-weight: 500;
+    padding: 5px 15% 0px 15%;
+    line-height: 25px;
+}
+.skill-details:nth-child(2) h3{
+    padding: 5px 20% 0px 20%;
+}
+.card-body p{
+    color: #939393;
+    font-size:12px ;
+    text-align: center;
+    font-weight: 400;
+    padding: 30px 6% 20px 6%;
+    line-height: 25px;
+}
+.card-skill{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    padding: 0 19%;
+    margin-top: 1.7%;
+    justify-content: space-between;
+}
+.skills ul{
+    list-style-type: none;
+    padding:0 14px;
+}
+.skills{
+    height:170px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 0;
+    align-items: center;
+    background-color: #ffffff;
+}
+.skills li{
+    margin: 18px 0;
+    position: relative;
+}
+.skills li::before{
+    content: '';
+    position: absolute;
+    background-color:#f4f4f4;
+    top: calc(100% + 5px);
+    left: 0;
+    width: 100%;
+    height: 5px;
+    border-radius: 1000px;
+}
+.skills li::after{
+    content: '';
+    position: absolute;
+    background-color:#ffe500;
+    top: calc(100% + 5px);
+    left: 0;
+    width: 0;
+    height: 5px;
+    border-radius: 1000px;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    /* animation-direction: forward; */
+    animation-fill-mode: forwards;
+}
+.skills li.ps::after{
+    animation-name: ps;
+}
+@keyframes ps{
+    to{
+        width: 90%;
+    }
+}
+.skills li.ai::after{
+    animation-name: ai;
+}
+@keyframes ai{
+    to{
+        width: 99%;
+    }
+}
+.skills li.id::after{
+    animation-name: id;
+}
+@keyframes id{
+    to{
+        width: 70%;
+    }
+}
+.skills li.ui::after{
+    animation-name: ui;
+}
+@keyframes ui{
+    to{
+        width: 98%;
+    }
+}
+.skills li.ux::after{
+    animation-name: ux;
+}
+@keyframes ux{
+    to{
+        width: 87%;
+    }
+}
+.skills li.res::after{
+    animation-name: res;
+}
+@keyframes res{
+    to{
+        width: 94%;
+    }
+}
+.skills li.html::after{
+    animation-name: html;
+}
+@keyframes html{
+    to{
+        width: 99%;
+    }
+}
+.skills li.css::after{
+    animation-name: css;
+}
+@keyframes css{
+    to{
+        width: 99%;
+    }
+}
+.skills li.js::after{
+    animation-name: js;
+}
+@keyframes js{
+    to{
+        width: 80%;
+    }
+}
+.skills li.c-plus::after{
+    animation-name: c-plus;
+}
+@keyframes c-plus{
+    to{
+        width: 86%;
+    }
+}
+.skills li.java::after{
+    animation-name: java;
+}
+@keyframes java{
+    to{
+        width: 90%;
+    }
+}
+.skills li.swift::after{
+    animation-name: swift;
+}
+@keyframes swift{
+    to{
+        width: 85%;
+    }
+}
+
+/*sectionTwo end here*/
+/*section history start here*/
+.history{
+    background-color: black;
+}
+.statistics{
+    padding: 90px 19%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 23% 23% 23% 23%;
+    
+}
+.designs{
+    height: 70px;
+    background-color: #ffffff;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 12px 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.designs h5{
+    font-weight: bold;
+    font-size: 16px;
+}
+.designs h6{
+    font-size: 15px;
+}
+
+
+/*section history end here*/
+/*section -FOUR start here*/
+.img{
+    text-align: center;
+    padding-top: 80px;
+}
+.brief{
+    text-align: center;
+    padding-top: 30px;
+}
+.brief h6{
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+.brief p{
+    font-size: 15px;
+    color: #939393;
+    padding: 10px 29%;
+    line-height: 30px;
+}
+.options{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    padding: 70px 20%;
+    justify-content: space-between;
+}
+.options .graphic-div::before{
+   content: '';
+   width: 24%;
+   height: 1px;
+   position: absolute;
+   background-color: black;
+}
+.options .graphic-div::after{
+   content: '';
+   width: 24%;
+   height: 1px;
+   position: absolute;
+   background-color: black;
+}
+.graphic-div ul{
+    list-style: none;
+    margin-top: 16px;
+}
+.graphic-div ul li{
+    display: inline;
+    /* padding: 20px 30% 20px 10px; */
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.graphic-div ul li:nth-child(1){
+    padding: 20px 49% 20px 10px; 
+}
+.options .development-div::before{
+   content: '';
+   width: 24%;
+   height: 1px;
+   position: absolute;
+   background-color: black;
+}
+.options .development-div::after{
+   content: '';
+   width: 24%;
+   height: 1px;
+   position: absolute;
+   background-color: black;
+}
+.development-div ul{
+    list-style: none;
+    margin-top: 16px;
+}
+.development-div ul li{
+    display: inline;
+    /* padding: 20px 28% 20px 10px; */
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.development-div ul li:nth-child(1){
+    padding: 20px 37% 20px 10px; 
+}
+.img-div{
+    margin-top: -20px;
+    text-align: center;
+}
+
+/* slide code start */
+.slide-sec{
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+.slide-container{
+    padding: 0;
+    display: flex;
+    overflow-x:auto;
+    scroll-behavior: smooth;
+}
+/* .slide-container{
+    
+    overflow-x: hidden;
+   
+} */
+
+.slide-card{
+    flex: 0 0 auto;
+    width: 320px;
+    height: 350px;
+}
+.slide-item{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.ph1{
+    height:100%;
+    width: 100%;
+} 
+.slide-card:nth-child(3){
+    background-image: url(img/painting-mountain-lake-with-mountain-background.jpg)  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slide-thumb{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pre-btn, .next-btn{
+    border: none;
+    width: 35px;
+    height: 50%;
+    position: absolute;
+    top:25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(90deg, rgba(255,255,255,0)0%,#fff 100%); */
+    background: transparent;
+    cursor: pointer;
+    z-index: 9;
+}
+.pre-btn{
+    left: 0;
+    /* transform: rotate(180deg); */
+}
+.next-btn{
+    right: 0;
+}
+.pre-btn svg,.next-btn svg {
+    opacity: .5;
+    width: 35px;
+    height: 30px;
+
+}
+.pre-btn:hover svg,.next-btn:hover svg {
+    opacity: 9;
+}
+
+
+
+/* slide code end */
+
+.back-box{
+    width: 80%;
+    height: 70%;
+    background: #ffe500;
+    top: 15%;
+    position: relative;
+    left: 10%;
+}
+.text-box{
+    width: 120%;
+    height: 70%;
+    background: #ffffff;
+    top: 15%;
+    position: relative;
+    left: -10%;
+}
+.text-box h6{
+    font-size: 14px;
+    padding: 25px 0 10px 0;
+    text-align: center;
+    letter-spacing: 2px;
+    /* font-weight: bold; */
+}
+.text-box p{
+    font-size: 13px;
+    color: #939393;
+    padding:  0 25px;
+    text-align: center;
+}
+.button{
+    text-align: center;
+    padding: 86px 0;
+}
+.button button{
+    width: 230px;
+    height: 45px;
+    background-color: #ffe500;
+    border: none;
+    letter-spacing: 3px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.video{
+    background-image: url(img/chicago.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    color: black;
+}
+.overlay{
+    background-color: black;
+    opacity: .8;
+}
+.btn2{
+    width: 375px;
+    height:80px ;
+    color:#ffe500 ;
+    background: transparent;
+    border: 2px solid #ffe500;
+    margin: 150px 0;
+    letter-spacing: 6px;
+    font-size: 15px;
+}
+
+
+/*section -FOUR  end here*/
+/*section -Five  start here*/
+.team{
+    display: grid;
+    grid-template-columns:23% 23% 23% 23% ;
+    justify-content: space-between;
+    padding: 0 19%;
+}
+.section-five .axe {
+    padding-top: 80px;
+}
+.TeamDetails{
+    text-align: center;
+}
+.TeamDetails h2{
+    font-size: 20px;
+    letter-spacing: 14px;
+    font-weight: normal;
+    padding-top: 30px;
+}
+.TeamDetails p{
+    font-size: 15px;
+    font-weight: normal;
+    color: #939393;
+    padding: 15px 30% 60px 30%;
+    line-height: 30px;
+}
+.team-member{
+    height: 350px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 0;
+    background-color: #ffffff;
+}
+.team-member img{
+    width:100% ;
+    height: 60%;
+}
+.member-details h3{
+    font-size: 15px;
+    /* font-weight: bold; */
+    text-align: center;
+    letter-spacing: 4px;
+    padding-top: 22px;
+    
+}
+.member-details p{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 22px;
+    color: #939393;
+    padding: 20px;
+    line-height: 25px;
+    
+}
+.member-details .name{
+    background-color: #ffe500;
+    margin-top: -60px;
+    position: relative;
+    height: 60px;
+    width: 100%;
+    opacity: .7;
+}
+.firstFeed{
+    padding: 0 19%;
+}
+.para{
+    background-color: #1a1a1a;
+    height: 370px;
+    width: 570px;
+    color: #f4f4f4;
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: -185px;
+}
+.yellowLIne{
+    width: 100%;
+    height: 210px;
+    background-color: #ffe500;
+
+}
+.feedback{
+    padding: 60px 100px 20px 100px;
+}
+.feedback p{
+    color: #939393;
+    font-size: 12px;
+    text-align: center;
+}
+.feedback h6{
+    font-weight: bold;
+    font-size: 12px;
+    font-style: italic;
+    text-align: right;
+
+}
+.left h6{
+    text-align: left;
+}
+.feedPhoto img{
+    width: 570px;
+    height: auto;
+    margin-top: -185px;
+}
+
+
+
+
+/*section -five  end here*/
+.social ul li{
+    display: inline;
+}
+.footer{
+    background-color: #1a1a1a;
+    padding: 80px 19% 50px 19%;
+    
+}
+.footer p{
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 23px;
+}
+.footer h6{
+    color: #ffffff;
+    font-size: 15px;
+}
+.creator img{
+   margin-bottom: 20px;
+}
+.creator span{
+    color: #ffe500;
+}
+.links ul{
+    list-style: none;
+    padding: 0;
+}
+.links ul li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+.links ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+   
+}
+.aboutUs ul{
+    list-style: none;
+    padding: 0;
+}
+.aboutUs ul li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+.aboutUs ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+   
+}
+.contactUs button{
+    border: none;
+    background-color: #ffe500;
+    border-radius: 20px;
+    width: 90%;
+    height: 45px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.contactUs button a{
+    text-decoration: none;
+    font-size: 13px;
+}
+.contactUs ul{
+    padding: 0;
+}
+.contactUs ul li{
+    padding-right: 10px;
+}

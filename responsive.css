@@ -1,0 +1,1553 @@
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+   
+    .navbar{
+        padding: 0 7%;
+    }
+    .navbar-brand img{
+        height: 33px;
+        width: 33px;
+    }
+    .navbar-brand h4{
+        letter-spacing: 4px;
+        font-size: 10.5px;
+        margin-top: 10px;
+        margin-left: 4px;
+    }
+    .navbar .container-fluid{
+        margin-top: 15px;
+    }
+    .nav-item a{
+       font-size: 14px;
+       padding: 4px 0;
+    }
+    .wlc-note{
+       padding-top: 14%;
+    }
+    .wlc-note h2{
+        letter-spacing: 5px;
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .wlc-note p{
+        font-size: 10px;
+    }
+    .btn{
+        font-size: 10px;
+        width: 110px;
+        height: 30px;
+        padding: 0;
+    }
+    .navbar .btn{
+        margin-top: 10px;
+        margin-bottom: 15%;
+    }
+    .sectionOne{
+        padding: 7%;
+    }
+    .mountain p{
+        padding: 40px 20px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .mountain p span{
+       display: none;
+    }
+    .mountain img{
+        width: 100px;
+        height: auto;
+    }
+    .sectionTwo{
+        padding: 30px 0 20px 0;
+    }
+    .axe img{
+        width: 60px;
+    }
+    .serviceDetails h2{
+        letter-spacing: 7px;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+    .serviceDetails p{
+        font-size: 12px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding: 0 7%;
+        line-height: 20px;
+    }
+    .serviceDetails p span{
+        display: none;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 0 15%;
+        justify-content: space-between;
+    }
+    .card{
+        height:280px;
+        margin-bottom: 20px;
+    }
+    .card img{
+        width: 60px;
+        margin-top: 25px;
+    }
+    .skill-details:nth-child(4) img{
+        width:30px ;
+    }
+    .skill-details:nth-child(2) img{
+        width:55px !important;
+    }
+    .card-body h3{
+        letter-spacing: 3px;
+        font-size:12px ;
+        padding: 0px 15%;
+        line-height: 20px;
+    }
+    .card-body p{
+        font-size:12px ;
+        padding: 10px 6%;
+        line-height: 20px;
+    }
+    .statistics{
+        padding: 30px 16%;
+        grid-template-columns:100%;
+    }
+    .designs{
+        height: 60px;
+        width: 100%;
+        margin:0 auto 15px auto ;
+        padding: 6px 0;
+    }
+    .designs h5{
+        font-size: 14px;
+        /* margin-bottom: 4px; */
+    }
+    .designs h6{
+        font-size: 13px;
+    }
+    .img{
+        padding-top: 30px;
+    }
+    .img img{
+        width: 60px;
+    }
+    .brief{
+        padding-top: 28px;
+    }
+    .brief h6{
+        letter-spacing: 7px;
+        font-size: 14px;
+    }
+    .brief p{
+        font-size: 12px;
+        padding: 0px 7%;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+    .brief p span{
+        display: none;
+    }
+    .options{
+        grid-template-columns: 40% 20% 40%;
+        padding: 40px 2%;
+    }
+    .graphic-div ul{
+        margin-top: 8px;
+        padding-left: 6px;
+        margin-bottom: 10px;
+    }
+    .graphic-div ul li{
+        /* padding: 20px 30% 20px 10px; */
+        letter-spacing: 1px;
+        font-size: 9px;
+    }
+    .graphic-div ul li:nth-child(1){
+        padding: 0px 4%; 
+    }
+    .options .graphic-div::before{
+        width: 34%;
+     }
+     .options .graphic-div::after{
+        width: 34%;
+     }
+     .img-div img{
+        width: 65px;
+    }
+     .img-div{
+        margin-top: -11px;
+    }
+    .options .development-div::before{
+        width: 34%;
+     }
+     .options .development-div::after{
+        width: 34%;
+     }
+     .development-div{
+         margin-left: 11%;
+     }
+     .development-div ul{
+         margin: 8px 0;
+         padding-left: 0px;
+     }
+     .development-div ul li{
+         font-size: 9px;
+         letter-spacing: 1px;
+     }
+     .development-div ul li:nth-child(1){
+         padding: 0px 5%; 
+     }
+     .button{
+        padding: 66px 0;
+    }
+    .slide-card{
+        width: 360px;
+    }
+    .button button{
+        width: 160px;
+        height: 35px;
+        letter-spacing: 2px;
+        font-size: 9px;
+    }
+    .btn2{
+        width: 45%;
+        height:40px ;
+        margin:9% 0;
+        letter-spacing: 4px;
+        font-size: 9px;
+    }
+    .video{
+        background-size: cover;
+    }
+    .team{
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 0 25%;
+        justify-content: space-between;
+    }
+    .section-five .axe {
+        padding-top: 30px;
+    }
+    .team-member img{
+        height: 56%;
+    }
+    .TeamDetails h2{
+        font-size: 14px;
+        letter-spacing: 7px;
+    }
+    .TeamDetails p{
+        font-size: 12px;
+        padding:0  7%;
+        line-height: 20px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .TeamDetails span{
+        display: none;
+    }
+    .team-member{
+        margin-bottom: 30px;
+    }
+    .team-member h3{
+        font-size: 13px;
+        letter-spacing: 3px;
+        padding-top: 14px;
+    }
+    .team-member p{
+        font-size: 12px;
+        padding: 10px;
+        line-height: 20px;
+    }
+    .member-details .name{
+        margin-top: -40px;
+        height: 40px;
+    }
+    .firstFeed{
+        padding: 0 7%;
+        display:inline-grid !important;
+        grid-template-columns: 49% 49%;
+        justify-content: space-between;
+    }
+    .para span{
+        display: none;
+    }
+    .para p{
+        line-height: 16px;
+        text-align: center;
+        padding: 5px;
+    }
+    .para{
+        height: 200%;
+        width: 100%;
+        font-size: 9px;
+        line-height: 20px;
+        margin-bottom: -95px;
+        padding: 0 !important;
+        min-height: 126px;
+        max-height: 170px;
+    }
+    .feedback{
+        padding: 0;
+    }
+    .feedback p{
+        font-size: 9px;
+        margin-bottom: 6px;
+        margin-top: 10px;
+        text-align: right;
+    }
+    .left p{
+        text-align: left;
+    }
+    .feedback h6{
+        font-size: 10px;
+    }
+    .yellowLIne{
+        height: 80px;
+    }
+    .feedPhoto{
+        padding: 0px !important;
+    }
+    .feedPhoto img{
+        width: 100%;
+        height: auto;
+        margin-top: -60px;
+    }
+    .feedback span{
+        display: none;
+    }
+    .footer{
+        padding: 40px 5%;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+    }
+    .creator{
+        padding-right: 20px !important;
+    }
+    .links{
+        padding-right: 20px !important;
+    }
+    .aboutUs{
+        padding-right: 10px !important;
+    }
+    
+
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    
+    .navbar{
+        padding: 0 7%;
+    }
+    .navbar-brand img{
+        height: 40px;
+        width: 40px;
+    }
+    .navbar-brand h4{
+        letter-spacing: 4px;
+        font-size: 11px;
+        margin-top: 13px;
+        margin-left: 5px;
+    }
+    .nav-item a{
+        font-size: 15px;
+        padding: 6px 0;
+     }
+     .wlc-note{
+        padding-top: 15%;
+     }
+     .wlc-note h2{
+         letter-spacing: 6px;
+         font-size: 15px;
+     }
+     .wlc-note p{
+         font-size: 11px;
+     }
+     .btn{
+        width: 125px;
+        height: 35px;
+        padding: 0;
+    }
+    .navbar .btn{
+        margin-top: 15px;
+        margin-bottom: 17%;
+    }
+    .sectionOne{
+        padding: 6% 8% 7% 8%;
+    }
+    .mountain p{
+        padding: 50px 8%;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .mountain img{
+        width: 120px;
+        height: auto;
+    }
+    .sectionTwo{
+        padding: 40px 0 23px 0;
+    }
+    .axe img{
+        width: 63px;
+    }
+    .serviceDetails h2{
+        letter-spacing: 8px;
+        font-size: 16px;
+        margin-top: 26px;
+    }
+    .serviceDetails p{
+        font-size: 12px;
+        margin-top: 22px;
+        margin-bottom: 55px;
+        padding: 0 10%;
+        line-height: 22px;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: 48% 48%;
+        padding: 0 10%;
+        justify-content: space-between;
+    }
+    .card{
+        height:300px;
+        margin-bottom: 20px;
+    }
+    .card img{
+        width: 64px;
+        margin-top: 28px;
+    }
+    .skill-details:nth-child(2) img{
+        width:58px ;
+    }
+    .skill-details:nth-child(4) img{
+        width:32px ;
+    }
+    .card-body h3{
+        letter-spacing: 3px;
+        font-size:13px ;
+        padding: 0px 10%;
+        line-height: 21px;
+    }
+    .skill-details:nth-child(2) h3{
+        margin-top: -10px;
+    }
+    .card-body p{
+        font-size:12px;
+        padding: 10px 6%;
+        line-height: 20px;
+    }
+    .statistics{
+        padding: 30px 7%;
+        grid-template-columns:49% 49%;
+    }
+    .designs{
+        height: 65px;
+        width: 90%;
+        margin:0 auto 15px auto ;
+        padding: 8px 0;
+    }
+    .designs h5{
+        font-size: 14px;
+        /* margin-bottom: 4px; */
+    }
+    .designs h6{
+        font-size: 13px;
+    }
+    /* section four start here */
+    .img{
+        padding-top: 40px;
+    }
+    .img img{
+        width: 63px;
+    }
+    .brief{
+        padding-top: 28px;
+    }
+    .brief h6{
+        letter-spacing: 7px;
+        font-size: 16px;
+    }
+    .brief p{
+        font-size: 12px;
+        padding: 0px 10%;
+        line-height: 22px;
+        margin-top: 22px;
+    }
+    .options{
+        grid-template-columns: 40% 20% 40%;
+        padding: 45px 4%;
+    }
+    .graphic-div ul{
+        margin-top: 12px;
+        padding-left: 6px;
+        margin-bottom: 14px;
+    }
+    .graphic-div ul li{
+        /* padding: 20px 30% 20px 10px; */
+        letter-spacing: 1px;
+        font-size: 10px;
+    }
+    .graphic-div ul li:nth-child(1){
+        padding:0 25% 0 20px; 
+    }
+    .options .graphic-div::before{
+        width: 35%;
+     }
+     .options .graphic-div::after{
+        width: 35%;
+     }
+     .img-div img{
+        width: 75px;
+    }
+     .img-div{
+        margin-top: -11px;
+    }
+    .options .development-div::before{
+        width: 35%;
+     }
+     .options .development-div::after{
+        width: 35%;
+     }
+     .development-div{
+         margin-left: 5%;
+     }
+     .development-div ul{
+        margin: 12px 0;
+        padding-left: 0px;
+    }
+    .development-div ul li{
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+    .development-div ul li:nth-child(1){
+        padding: 0px 25% 0 20px; 
+    }
+    .slide-card{
+        width: 320px;
+    }
+    .slide-container{
+        padding: 0;
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior:smooth;
+    }
+    .button{
+        padding: 70px 0;
+    }
+    .button button{
+        width: 180px;
+        height: 40px;
+    }
+    .video{
+        background-size: cover;
+    }
+    .btn2{
+        width: 45%;
+        height:50px ;
+        margin:10% 0;
+        letter-spacing: 4px;
+        font-size: 11px;
+    }
+    .section-five .axe {
+        padding-top: 40px;
+    }
+    .TeamDetails h2{
+        font-size: 16px;
+        letter-spacing: 7px;
+        padding-top: 28px;
+    }
+    .TeamDetails p{
+        font-size: 12px;
+        padding:0  10%;
+        line-height: 22px;
+        margin-top: 22px;
+        margin-bottom: 55px;
+    }
+    .team{
+        grid-template-columns: 47% 47%;
+        padding: 0 16%;
+    }
+    .team-member{
+        margin-bottom: 30px;
+    }
+    .team-member img{
+        height: 55%;
+    }
+    .team-member h3{
+        font-size: 13px;
+        letter-spacing: 3px;
+        padding: 13px 0;
+    }
+    .member-details .name{
+        margin-top: -45px;
+        height: 45px;
+    }
+    .team-member p{
+        font-size: 12px;
+        padding: 10px;
+        line-height: 20px;
+    }
+    .firstFeed{
+        padding: 0 6%;
+        display:inline-grid !important;
+        grid-template-columns: 49% 49%;
+        justify-content: space-between;
+    }
+    .para .span2{
+        display: none;
+    }
+    .para p{
+        line-height: 18px;
+        font-size: 10px;
+        text-align: justify;
+    }
+    .para {
+        padding: 15px !important;
+        text-align: center;
+        height:auto;
+        width: 100%;
+        line-height: 20px;
+        margin-bottom: -115px;
+    }
+    .feedback{
+        padding: 0;
+    }
+    .feedback p{
+        font-size: 10px;
+        margin-bottom: 6px;
+        margin-top: 15px;
+        text-align: right;
+    }
+    .left p{
+        text-align: left;
+    }
+    .feedback h6{
+        font-size: 11px;
+        margin-bottom: 20px;
+    }
+    .yellowLIne{
+        height: 130px;
+    }
+    .feedPhoto{
+        padding: 0px !important;
+    }
+    .feedPhoto img{
+        width: 100%;
+        height: auto;
+        margin-top: -115px;
+    }
+    .footer{
+        padding: 40px 5%;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+    }
+    .creator{
+        padding-right: 30px !important;
+    }
+    .links{
+        padding-right: 30px !important;
+    }
+    .aboutUs{
+        padding-right: 10px !important;
+    }
+
+
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    .navbar{
+        padding: 0 9%;
+    }
+    .navbar-brand img{
+        height: 45px;
+        width: 45px;
+    }
+    .navbar-brand h4{
+        margin-top: 16px;
+    }
+     .wlc-note{
+        padding-top: 15%;
+     }
+     .wlc-note h2{
+         letter-spacing: 6.5px;
+         font-size: 16px;
+     }
+     .btn{
+        width: 135px;
+        height: 40px;
+        padding: 0;
+    }
+    .navbar .btn{
+        margin-bottom: 18%;
+    }
+    .sectionOne{
+        padding: 5% 10% 7% 10%;
+    }
+    .mountain p{
+        padding: 55px 10%;
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .mountain img{
+        width: 130px;
+        height: auto;
+    }
+    .sectionTwo{
+        padding: 50px 0 26px 0;
+    }
+    .axe img{
+        width: 65px;
+    }
+    .serviceDetails h2{
+        letter-spacing: 9px;
+        font-size: 18px;
+        margin-top: 28px;
+    }
+    .serviceDetails p{
+        font-size: 13px;
+        margin-top: 24px;
+        margin-bottom: 65px;
+        padding: 0 16%;
+        line-height: 24px;
+    }
+    .cards{
+        grid-template-columns: 47% 47%;
+        padding: 0 15%;
+    }
+    .card{
+        height:315px;
+    }
+    .card img{
+        width: 68px;
+        margin-top: 35px;
+    }
+    .skill-details:nth-child(2) img{
+        width:60px ;
+    }
+    .skill-details:nth-child(4) img{
+        width:34px ;
+    }
+    .card-body h3{
+        letter-spacing: 3px;
+        font-size:14px ;
+        padding: 0px 12%;
+        line-height: 23px;
+    }
+    .skill-details:nth-child(2) h3{
+        margin-top: -7px;
+    }
+    .card-body p{
+        padding: 15px 6%;
+        line-height: 22px;
+    }
+    .statistics{
+        padding: 50px 10%;
+        grid-template-columns:49% 49%;
+    }
+    .designs{
+        height: 67px;
+        width: 90%;
+        margin:0 auto 20px auto ;
+        padding: 10px 0;
+    }
+    .designs h5{
+        font-size: 15px;
+        /* margin-bottom: 4px; */
+    }
+    .designs h6{
+        font-size: 14px;
+    }
+    /* section four start here */
+    .img{
+        padding-top: 50px;
+    }
+    .img img{
+        width: 65px;
+    }
+    .brief{
+        padding-top: 28px;
+    }
+    .brief h6{
+        letter-spacing: 9px;
+        font-size: 18px;
+    }
+    .brief p{
+        font-size: 13px;
+        padding: 0px 16%;
+        line-height: 24px;
+        margin-top: 24px;
+    }
+    .options{
+        padding: 50px 10%;
+    }
+    .graphic-div ul{
+        margin-top: 13px;
+    }
+    .graphic-div ul li{
+        letter-spacing: 1px;
+        font-size: 11px;
+    }
+    .graphic-div ul li:nth-child(1){
+        padding:0 25% 0 20px; 
+    }
+    .options .graphic-div::before{
+        width: 30%;
+     }
+     .options .graphic-div::after{
+        width: 30%;
+     }
+     .img-div img{
+        width: 85px;
+    }
+     .img-div{
+        margin-top: -15px;
+    }
+    .options .development-div::before{
+        width: 30%;
+     }
+     .options .development-div::after{
+        width: 30%;
+     }
+     .development-div{
+        margin-left: 5.5%;
+    }
+    .development-div ul{
+       margin: 13px 0;
+       padding-left: 0px;
+   }
+   .development-div ul li{
+       font-size: 11px;
+       letter-spacing: 1px;
+   }
+   .development-div ul li:nth-child(1){
+       padding: 0px 25% 0 20px; 
+   }
+   .button{
+    padding: 75px 0;
+}
+    .button button{
+        width: 195px;
+        height: 42px;
+    }
+    .video{
+        background-size: cover;
+    }
+    .btn2{
+        width: 40%;
+        height:60px ;
+        margin:9% 0;
+        letter-spacing: 4px;
+        font-size: 12.5px;
+    }
+    .section-five .axe {
+        padding-top: 50px;
+    }
+    .TeamDetails h2{
+        font-size: 18px;
+        letter-spacing: 7px;
+        padding-top: 28px;
+    }
+    .TeamDetails p{
+        font-size: 13px;
+        padding:0  16%;
+        line-height: 24px;
+        margin-top: 24px;
+        margin-bottom: 55px;
+    }
+    .team-member h3{
+        font-size: 14px;
+        letter-spacing: 3px;
+        padding: 16px 0;
+    }
+    .member-details .name{
+        margin-top: -50px;
+        height: 50px;
+    }
+    .team-member p{
+        font-size: 12px;
+        padding: 16px 25px;
+        line-height: 22px;
+    }
+    .firstFeed{
+        padding: 0 8%;
+        display:inline-grid !important;
+        grid-template-columns: 48% 48%;
+        justify-content: space-between;
+    }
+    .para .span3{
+        display: none;
+    }
+    .para .span2{
+        display: block;
+    }
+    .para p{
+        line-height: 20px;
+        font-size: 10px;
+        text-align: justify;
+    }
+    .para {
+        padding: 20px !important;
+        text-align: center;
+        height:auto;
+        width: 100%;
+        margin-bottom: -135px;
+    }
+    .feedback{
+        padding: 0;
+    }
+    .feedback p{
+        font-size: 10px;
+        margin-bottom: 6px;
+        margin-top: 10%;
+        text-align: right;
+    }
+    .left p{
+        text-align: left;
+    }
+    .feedback h6{
+        font-size: 11px;
+        margin-bottom: 20px;
+    }
+    .yellowLIne{
+        height: 160px;
+    }
+    .feedPhoto{
+        padding: 0px !important;
+    }
+    .feedPhoto img{
+        width: 100%;
+        height: auto;
+        margin-top: -135px;
+    }
+    .footer{
+        padding: 40px 5%;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+    }
+    .creator{
+        padding-right: 30px !important;
+    }
+    .links{
+        padding-right: 40px !important;
+    }
+    .aboutUs{
+        padding-right: 10px !important;
+    }
+
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .navbar{
+        padding: 0 12%;
+    }
+    .navbar-brand img{
+        height: 55px;
+        width: 55px;
+    }
+    .navbar-brand h4{
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .navbar-toggler{
+        margin-top: 10px;
+    }
+     .wlc-note{
+        padding-top: 16%;
+     }
+     .wlc-note h2{
+         letter-spacing: 8px;
+         font-size: 18px;
+     }
+     .wlc-note p{
+        font-size: 12px;
+    }
+     .btn{
+        width: 150px;
+        height: 42px;
+        padding: 0;
+    }
+    .navbar .btn{
+        margin-top: 20px;
+        margin-bottom: 18%;
+    }
+    .sectionOne{
+        padding: 5% 15% 7% 15%;
+    }
+    .mountain p{
+        padding: 65px 15%;
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .mountain img{
+        width: 145px;
+        height: auto;
+    }
+    .sectionTwo{
+        padding: 60px 0 28px 0;
+    }
+    .axe img{
+        width: 67px;
+    }
+    .serviceDetails h2{
+        letter-spacing: 10px;
+        font-size: 20px;
+        margin-top: 28px;
+    }
+    .serviceDetails p{
+        font-size: 14px;
+        margin-top: 26px;
+        margin-bottom: 70px;
+        padding: 0 20%;
+        line-height: 26px;
+    }
+    .cards{
+        grid-template-columns:23% 23% 23% 23%;
+        padding: 0 5%;
+    }
+    .card{
+        height:330px;
+    }
+    .card img{
+        width: 71px;
+        margin-top: 40px;
+    }
+    .skill-details:nth-child(2) img{
+        width:62px ;
+    }
+    .skill-details:nth-child(4) img{
+        width:35px ;
+    }
+    .card-body h3{
+        letter-spacing: 4px;
+        font-size:14px ;
+        padding: 0px 5%;
+        line-height: 23px;
+    }
+    .skill-details:nth-child(3) h3{
+        margin-top: 13px;
+    }
+    .skill-details:nth-child(4) h3{
+        margin-top: 13px;
+    }
+    .card-body{
+        padding: 10px;
+    }
+    .card-body p{
+        padding: 10px 4%;
+        line-height: 23px;
+    }
+    .statistics{
+        padding: 60px 5%;
+        grid-template-columns:23.5% 23.5% 23.5% 23.5%;
+    }
+    .designs{
+        height: 67px;
+        width: 100%;
+        margin:0 auto 20px auto ;
+        padding: 10px 0;
+    }
+    .img{
+        padding-top: 60px;
+    }
+    .img img{
+        width: 67px;
+    }
+    .brief h6{
+        letter-spacing: 10px;
+        font-size: 20px;
+    }
+    .brief p{
+        font-size: 14px;
+        padding: 0px 20%;
+        line-height: 26px;
+        margin-top: 26px;
+    }
+    .options{
+        padding: 60px 14%;
+    }
+    .graphic-div ul{
+        margin-top: 13px;
+    }
+    .graphic-div ul li{
+        letter-spacing: 1.5px;
+        font-size: 12px;
+    }
+    .graphic-div ul li:nth-child(1){
+        padding:0 40% 0 20px; 
+    }
+    .options .graphic-div::before{
+        width: 28%;
+     }
+     .options .graphic-div::after{
+        width: 28%;
+     }
+     .img-div img{
+        width: 90px;
+    }
+     .img-div{
+        margin-top: -18px;
+    }
+    .options .development-div::before{
+        width: 28%;
+     }
+     .options .development-div::after{
+        width: 28%;
+     }
+     .development-div{
+        margin-left: 2%;
+    }
+   .development-div ul li{
+       font-size: 12px;
+       letter-spacing: 1.5px;
+   }
+   .development-div ul li:nth-child(1){
+       padding: 0px 30% 0 20px; 
+   }
+   .button{
+    padding: 80px 0;
+}
+    .button button{
+        width: 210px;
+        height: 42px;
+    }
+    .btn2{
+        width: 30%;
+        height:70px ;
+        margin:7% 0;
+        letter-spacing: 5px;
+        font-size: 13.5px;
+    }
+    .section-five .axe {
+        padding-top: 60px;
+    }
+    .TeamDetails h2{
+        font-size: 20px;
+        letter-spacing: 10px;
+        padding-top: 28px;
+    }
+    .TeamDetails p{
+        font-size: 14px;
+        padding:0  20%;
+        line-height: 26px;
+        margin-top: 26px;
+        margin-bottom: 55px;
+    }
+    .team{
+        grid-template-columns:23% 23% 23% 23%;
+        padding: 0 5%;
+    }
+    .team-member h3{
+        font-size: 14px;
+        letter-spacing: 3px;
+        padding: 18px 0;
+    }
+    .member-details .name{
+        margin-top: -55px;
+        height: 55px;
+    }
+    .team-member p{
+        font-size: 12px;
+        padding: 12px 10px;
+        line-height: 23px;
+    }
+    .testimonial{
+        margin-top: 30px;
+    }
+    .firstFeed{
+        padding: 0 15%;
+    }
+    .para .span3{
+        display: block;
+    }
+    .para .span2{
+        display:block;
+    }
+    .para .span4{
+        display: none;
+    }
+    .para p{
+        line-height: 20px;
+        font-size: 11px;
+        text-align: justify;
+
+    }
+    .para {
+        padding: 5% !important;
+        text-align: center;
+        height:auto;
+        width: 100%;
+        margin-bottom: -160px;
+    }
+    .feedback p{
+        font-size: 11px;
+        margin-bottom: 6px;
+        margin-top: 10%;
+        text-align: right;
+    }
+    .left p{
+        text-align: left;
+        margin-top: 10%;
+    }
+    .feedback h6{
+        font-size: 11px;
+        margin-bottom: 20px;
+    }
+    .yellowLIne{
+        height: 190px;
+    }
+    
+    .feedPhoto img{
+        width: 100%;
+        height: auto;
+        margin-top: -160px;
+    }
+
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+    .navbar{
+        padding: 0 15%;
+    }
+    .navbar-brand img{
+        height: 60px;
+        width: 60px;
+    }
+    .navbar-brand h4{
+        margin-top: 24px;
+        font-size: 14px;
+        margin-left: 8px;
+    }
+    .navbar-toggler{
+        margin-top: 13px;
+    }
+     .wlc-note{
+        padding-top: 17%;
+     }
+     .wlc-note h2{
+         letter-spacing: 10px;
+         font-size: 20px;
+     }
+     .wlc-note p{
+        font-size: 13px;
+    }
+     .btn{
+        width: 165px;
+        height: 45px;
+    }
+    .navbar .btn{
+        margin-top: 25px;
+        margin-bottom: 23%;
+    }
+    .sectionOne{
+        padding: 5% 19% 7% 19%;
+    }
+    .mountain p{
+        padding: 65px 20%;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .mountain img{
+        width: 159px;
+    }
+    .sectionTwo{
+        padding: 70px 0 30px 0;
+    }
+    .axe img{
+        width: 69px;
+    }
+    .serviceDetails h2{
+        letter-spacing: 12px;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .serviceDetails p{
+        font-size: 15px;
+        margin-top: 30px;
+        margin-bottom: 80px;
+        padding: 0 24%;
+        line-height: 30px;
+    }
+    .cards{
+        grid-template-columns:23% 23% 23% 23%;
+        padding: 0 14%;
+    }
+    .card{
+        height:340px;
+    }
+    .card img{
+        width: 75px;
+        margin-top: 40px;
+    }
+    .skill-details:nth-child(2) img{
+        width:65px ;
+    }
+    .skill-details:nth-child(4) img{
+        width:36px ;
+    }
+    .card-body h3{
+        letter-spacing: 4px;
+        font-size:15px ;
+        padding: 0px 5%;
+        line-height: 25px;
+    }
+    .card-body{
+        padding: 10px;
+    }
+    .card-body p{
+        padding: 10px 4%;
+        line-height: 23px;
+    }
+    .statistics{
+        padding: 75px 14%;
+        grid-template-columns:23.5% 23.5% 23.5% 23.5%;
+    }
+    .designs{
+        height: 70px;
+        width: 100%;
+        margin:0 auto 20px auto ;
+        padding: 12px 0;
+    }
+    .img{
+        padding-top: 70px;
+    }
+    .img img{
+        width: 69px;
+    }
+    .brief p{
+        font-size: 15px;
+        padding: 0px 25%;
+        line-height: 30px;
+        margin-top: 30px;
+    }
+    .options{
+        padding: 70px 17%;
+    }
+    
+    .graphic-div ul li{
+        letter-spacing: 2px;
+        font-size: 13px;
+    }
+    .graphic-div ul li:nth-child(1){
+        padding:0 45% 0 20px; 
+    }
+    .options .graphic-div::before{
+        width: 26%;
+     }
+     .options .graphic-div::after{
+        width: 26%;
+     }
+     .img-div img{
+        width: 96px;
+    }
+     .img-div{
+        margin-top: -19px;
+    }
+    .options .development-div::before{
+        width: 26%;
+     }
+     .options .development-div::after{
+        width: 26%;
+     }
+     .development-div{
+        margin-left: 1%;
+    }
+   .development-div ul li{
+       font-size: 13px;
+       letter-spacing: 2px;
+   }
+   .development-div ul li:nth-child(1){
+       padding: 0px 33% 0 20px; 
+   }
+   .button{
+    padding: 86px 0;
+}
+    .button button{
+        width: 230px;
+        height: 45px;
+    }
+    .btn2{
+        width: 25%;
+        height:80px ;
+        margin:7% 0;
+        letter-spacing: 6px;
+        font-size: 15px;
+    }
+    .section-five .axe {
+        padding-top: 70px;
+    }
+    .TeamDetails h2{
+        font-size: 20px;
+        letter-spacing: 14px;
+        padding-top: 30px;
+    }
+    .TeamDetails p{
+        font-size: 15px;
+        padding:0  25%;
+        line-height: 30px;
+        margin-top: 30px;
+        margin-bottom: 55px;
+    }
+    .team{
+        padding: 0 14%;
+    }
+    .team-member h3{
+        font-size: 15px;
+        letter-spacing: 4px;
+    }
+    .member-details .name{
+        margin-top: -60px;
+        height: 60px;
+    }
+    .team-member p{
+        font-size: 12px;
+        padding: 12px 10px;
+        line-height: 23px;
+    }
+    .testimonial{
+        margin-top: 30px;
+    }
+    .firstFeed{
+        padding: 0 15%;
+    }
+    .para .span3{
+        display: block;
+    }
+    .para .span2{
+        display:block;
+    }
+    .para .span4{
+        display: block;
+    }
+    .para p{
+        line-height: 20px;
+        font-size: 11px;
+        text-align: justify;
+    }
+   
+    .feedback p{
+        font-size: 12px;
+        margin-bottom: 6px;
+        margin-top: 15%;
+        text-align: right;
+    }
+    .left p{
+        text-align: left;
+        margin-top: 10%;
+    }
+    .feedback h6{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .yellowLIne{
+        height: 200px;
+    }
+    .footer{
+        padding: 40px 14%;
+    } 
+}
+@media only screen and (min-width: 1600px){
+    .cards{
+        grid-template-columns:23% 23% 23% 23%;
+        padding: 0 19%;
+    }
+    .sectionTwo{
+        padding: 80px 0 30px 0;
+    }
+    .card{
+        height:350px;
+    }
+    .card img{
+        margin-top: 45px;
+    }
+    .card-body h3{
+        letter-spacing: 5px;
+        font-size:15px ;
+        padding: 0px 9%;
+        line-height: 25px;
+    }
+    .card-body p{
+        padding: 10px 6%;
+        line-height: 25px;
+    }
+    .statistics{
+        padding: 90px 19%;
+        grid-template-columns:23.5% 23.5% 23.5% 23.5%;
+    }
+    .img{
+        padding-top: 80px;
+    }
+    .brief p{
+        padding: 0px 29%;
+    }
+    .options{
+        padding: 70px 20%;
+    }
+    .graphic-div ul li:nth-child(1){
+        padding:0 49% 0 20px; 
+    }
+    .options .graphic-div::before{
+        width: 24%;
+     }
+     .options .graphic-div::after{
+        width: 24%;
+     }
+     .img-div img{
+        width: 103px;
+    }
+    .options .development-div::before{
+        width: 24%;
+     }
+     .options .development-div::after{
+        width: 24%;
+     }
+     .development-div{
+        margin-left: 0;
+    }
+    .development-div ul li:nth-child(1){
+        padding: 0px 37% 0 20px; 
+    }
+    .btn2{
+        width: 20%;
+        height:80px ;
+        margin:7% 0;
+        letter-spacing: 6px;
+        font-size: 15px;
+    }
+    .section-five .axe {
+        padding-top: 80px;
+    }
+    .TeamDetails p{
+        font-size: 15px;
+        padding:0  30%;
+        line-height: 30px;
+        margin-top: 30px;
+        margin-bottom: 55px;
+    }
+    .team{
+        padding: 0 19%;
+    }
+    .team-member p {
+        font-size: 12px;
+        padding: 20px;
+        line-height: 25px;
+      }
+    .firstFeed{
+        padding: 0 19%;
+    }
+    .para p{
+        line-height: 22px;
+        font-size: 12px;
+        text-align: justify;
+    }
+    .yellowLIne{
+        height: 210px;
+    }
+    .footer{
+        padding: 40px 19%;
+    } 
+    
+
+}
